@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "86311b93-a661-4586-ba6d-71d83b118b7b",
+		"name": "Spring Boot Virtual Threads",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5264287"
+	},
+	"item": [
+		{
+			"name": "Hello Greetings",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/hello",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"hello"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Hello Greetings with Delay",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/hello-with-delay",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"hello-with-delay"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Hello Greetings with Async Processing",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/hello-async",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"hello-async"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
