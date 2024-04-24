@@ -14,7 +14,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 
 	<name>spring-boot-virtual-threads</name>
-	<description>A simple app demonstrating how we can use virtual threads in Spring Boot application for for enhanced concurrency and performance</description>
+	<description>A simple app demonstrating how we can use virtual threads in Spring Boot application for enhanced concurrency and performance</description>
 
 	<properties>
 		<java.version>21</java.version>
